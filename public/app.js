@@ -23,6 +23,11 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
             'id': 'digitalocean',
             'name': 'DigitalOcean',
             'description': 'code deployment'
+        },
+        {
+            'id': 'photoshop',
+            'name': 'Photoshop',
+            'description': 'code deployment'
         }
     ];
     $scope.icon = {
